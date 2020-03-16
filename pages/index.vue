@@ -6,7 +6,7 @@
         covidcl
       </h1>
       <h2 class="subtitle">
-        covid-19 info tracker en Chile
+        covid-19 info tracker en Chile jsjsjsj
       </h2>
       <div class="links">
         <a
