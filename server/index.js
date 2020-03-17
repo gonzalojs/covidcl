@@ -5,12 +5,16 @@ const app = express()
 const take = require('./twitter/take')
 const postTweet = require('./twitter/post')
 
+global.data_total = {}
+
 /* setTimeout(take, 1500) */
-setTimeout(postTweet, 60000)
+/* setTimeout(postTweet, 60000) */
 
 // Import and Set Nuxt.js options
 const config = require('../nuxt.config.js')
 config.dev = process.env.NODE_ENV !== 'production'
+
+app.use('/api', require('./routes/Api.routes'))
 
 async function start () {
   // Init Nuxt.js
