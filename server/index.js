@@ -7,7 +7,7 @@ const postTweet = require('./twitter/post')
 
 global.data_total = {}
 
-/* setTimeout(take, 1500) */
+setTimeout(take, 1500)
 /* setTimeout(postTweet, 60000) */
 
 // Import and Set Nuxt.js options
