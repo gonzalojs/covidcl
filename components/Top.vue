@@ -15,7 +15,7 @@
                   <div class="content">
                     <div class="columns is-mobile is-centered">
                       <div class="column">
-                        <p class="has-text-centered subtitle">Fecha del día</p>
+                        <progress class="progress is-danger" value="100" max="100">100%</progress>
                         <div class="columns is-mobile">
                           <div class="column">
                             <p class=" title has-text-centered">Infectados</p>
