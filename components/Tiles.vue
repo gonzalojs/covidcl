@@ -8,14 +8,29 @@
               <p class="title">Middle tile</p>
               <p class="subtitle">With an image</p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png" />
+                <img src="~/assets/covid.svg" />
               </figure>
             </article>
           </div>
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-primary">
               <p class="title">Vertical...</p>
-              <p class="subtitle">Top tile</p>
+              <div class="content">
+                <div class="columns is-vcentered">
+                  <div class="column">
+                    <div class="columns is-mobile">
+                      <div class="column">
+                        <figure class="image is-4by3">
+                          <img src="~/assets/covid.svg" />
+                        </figure>
+                      </div>
+                      <div class="column">
+                        <p class="title">Muertos</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </article>
             <article class="tile is-child notification is-warning">
               <p class="title">...tiles</p>
